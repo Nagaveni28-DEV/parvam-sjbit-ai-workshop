@@ -1,0 +1,158 @@
+Prompts to Try:
+1. ))Zero Shot Prompt:
+Classify the sentiment of this flipkart user review: 
+“Received product in the morning, It was great but delivery got delayed”
+
+
+Result :
+The sentiment is Mixed (Neutral).
+
+Reason:
+
+Positive part: “It was great” → shows satisfaction with the product
+Negative part: “delivery got delayed” → shows dissatisfaction with service
+
+So overall, the review contains both positive and negative opinions, making it a mixed sentiment.
+
+2. )) Few Shot:
+Classify the sentiment of this flipkart user review:
+“Received product in the morning, It was great but delivery got delayed” - Mixed
+"I got the damaged product, It was a terrible experience." - Negative
+"I loved the camera. It is superb, Highly Recommended!" - Positive
+"I recommend the delivery staffs to behave properly, Product is very good."?
+
+Result :
+
+The sentiment is Mixed.
+
+Reason:
+
+Positive part: “Product is very good” → shows satisfaction with the product
+Negative part: “delivery staffs to behave properly” → indicates dissatisfaction with service
+
+So, since it contains both positive and negative opinions, the overall sentiment is Mixed.
+
+3. )) Chain of Thoughts (CoT):
+The shop keeper sells 10 pens in a day and makes the profit of 25 Rupees, and if the shop keeper sells 25 pens in the next day what is the profit he makes and what is the cost of each pen? Let’s think step by step.
+
+Result: 
+Let’s solve it step by step:
+
+Step 1: Find profit per pen
+
+Given:
+
+Selling 10 pens → profit = ₹25
+
+So, profit per pen = 
+25
+10
+=
+2.5
+10
+25
+	​
+
+=2.5
+
+👉 Profit per pen = ₹2.5
+
+Step 2: Profit for 25 pens
+
+If the shopkeeper sells 25 pens:
+
+25
+×
+2.5
+=
+62.5
+25×2.5=62.5
+
+👉 Total profit = ₹62.5
+
+Step 3: Cost of each pen
+
+⚠️ Here’s the important point:
+We cannot find the exact cost of each pen because we are NOT given:
+
+Selling price OR
+Cost price OR
+Profit percentage
+
+We only know profit per pen = ₹2.5.
+
+So we can only say:
+
+Cost of each pen = Selling Price − 2.5
+✅ Final Answer:
+Profit for 25 pens = ₹62.5
+Profit per pen = ₹2.5
+Cost of each pen = Cannot be determined with given data
+
+4. )) Role / Persona Prompt:
+Explain about Generative AI as three different personas:
+You are a 12-year old boy curious about the AI field.
+You are a developer who works on Web Development.
+You are a stand-up comedian.
+
+Result :
+
+Here’s how Generative AI would be explained by three very different personas:
+
+👦 1. 12-Year-Old Curious Boy
+
+“Generative AI is like a super-smart robot that can create stuff instead of just answering questions. Like, if I ask it to draw a dragon or write a story about space, it can actually make it! 😲
+
+It’s kind of like when we imagine things in our brain—but this AI learned it by looking at lots of pictures, stories, and videos. So it’s like a creative machine that learned from the internet!”
+
+💻 2. Web Developer
+
+“Generative AI refers to models that can produce new content—text, images, code, audio—based on patterns learned from large datasets.
+
+In web development, it’s incredibly useful:
+
+Auto-generating UI components or boilerplate code
+Assisting with debugging and documentation
+Creating content dynamically (like product descriptions or chatbots)
+
+Technologies like transformer-based models (e.g., large language models) power these systems. Essentially, it boosts productivity by acting like a smart co-developer.”
+
+🎤 3. Stand-Up Comedian
+
+“Generative AI? Oh, that’s the thing that can write your homework, your emails, and probably your breakup messages too! 😂
+
+It’s like… you’re lazy, and AI says, ‘Don’t worry bro, I got you.’
+You: ‘Write a love letter’
+AI: writes better than Shakespeare
+Now your partner falls in love with… the AI 🤖💔
+
+Honestly, if this keeps going, one day AI will attend meetings for us… and still say ‘Let’s circle back’ better than humans!”
+
+5. )) System / Instruction Prompt:
+[System: Never give long answers. Always answer in exactly 3 sentences with marking the important keywords.]
+[User:  Applications of Generative AI learn Web Development for Engineering Students]
+
+
+Result:
+Generative AI helps engineering students in Web Development by generating HTML/CSS/JavaScript code, building UI components, and assisting in debugging.
+It is useful for creating chatbots, generating content (text/images), and automating website design prototypes quickly.
+Students can also use it for learning concepts, improving productivity, and developing real-world projects efficiently.
+
+6. )) Negative Prompt:
+EXAMPLE 1:--
+Explain about Cars without using the keywords: Steering, Engine, Fuel, Mileage, 4 wheels.
+
+
+Result: 
+A car is a vehicle used for transportation that allows people to travel comfortably from one place to another.
+It consists of various mechanical and electrical systems that work together to enable movement and control.
+Cars are widely used for daily commuting, long-distance travel, and provide convenience and safety to users.
+
+EXAMPLE 2:--
+Explain about Smartphones without using terms: Processor, RAM, Storage, Camera and Performance.
+
+
+Result :
+Smartphones are portable electronic devices that allow users to make calls, send messages, and access the internet.
+They support various applications, enable social media, gaming, and provide features like touchscreen interaction and connectivity.
+These devices have become essential for communication, entertainment, and managing daily tasks efficiently.

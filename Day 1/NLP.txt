@@ -1,0 +1,88 @@
+NLP -- Natural Language Processing
+Nlp is a way to 
+
+
+NLP
+Task:
+Real‑life example NLP task (choose from list below)
+Gmail suggests “Will do!” as a reply Text Generation
+Netflix shows “Because you watched Inception” Recommendation(hint: analyzing descriptions)
+Your phone corrects “teh” to “the” Spelling correction
+A doctor’s dictation becomes written notes Speech to Text
+Options: Text generation, Speech‑to‑text, Spelling correction, Text classification / recommendation
+
+
+----Task on Tokenization:
+How many tokens would this sentence be split into? List them.
+Sentence 1: I don’t like sweets
+Sentence 2: I’m going to Bengaluru to explore the Technical Exhibition held at BIEC.
+Sentence 3: It was an unbelievable experience in the AI Workshop.
+
+Result :---
+Tokenization can vary by model, but here’s a simple word-level split:
+
+Sentence 1:
+
+“I don’t like sweets”
+Tokens (5):
+I | don’t | like | sweets
+
+Sentence 2:
+
+“I’m going to Bengaluru to explore the Technical Exhibition held at BIEC.”
+Tokens (14):
+I’m | going | to | Bengaluru | to | explore | the | Technical | Exhibition | held | at | BIEC
+
+Sentence 3:
+
+“It was an unbelievable experience in the AI Workshop.”
+Tokens (10):
+It | was | an | unbelievable | experience | in | the | AI | Workshop
+
+
+----Task on NER:
+Extract all entities from this email and label them as: PERSON, DATE, LOCATION, MONEY, or PRODUCT.
+Sentence 1:
+"Hi John, please deliver the 20 laptops to our New York office by March 15th. The total is Rs.12,000. Thanks, Sarah."
+Sentence 2:
+“Just landed in Tokyo 🇯🇵. Meeting with Tanaka-san at Sony HQ tomorrow at 9am. The flight cost ¥85,000."
+
+Result :---
+
+Sentence 1 Entities:
+John → PERSON
+20 laptops → PRODUCT
+New York → LOCATION
+March 15th → DATE
+Rs.12,000 → MONEY
+Sarah → PERSON
+
+Sentence 2 Entities:
+Tokyo → LOCATION
+Tanaka-san → PERSON
+Sony HQ → LOCATION
+tomorrow at 9am → DATE
+¥85,000 → MONEY
+
+----Task on Sentiment Analysis: 
+
+Classify the sentiment of this sentence as Positive, Negative, or Mixed with the tone.
+Sentences: “The battery lasts 10 hours. Amazing!”  
+“The battery lasts 10 hours. Amazing. (sarcastic)”  
+“The screen is great but the camera is terrible.”
+
+Result:--- 
+
+“The battery lasts 10 hours. Amazing!” → Positive (Enthusiastic tone)
+“The battery lasts 10 hours. Amazing. (sarcastic)” → Negative (Sarcastic tone)
+“The screen is great but the camera is terrible.” → Mixed (Balanced/Contrasting tone)
+
+----Task on Answering Question with Evidence:
+The Eiffel Tower was completed in 1889 for the World's Fair. It is 330 meters tall. Over 7 million people visit it each year. It was the world's tallest structure until the Chrysler Building was completed in 1930.
+Using only the text above, answer: "What year did the Eiffel Tower stop being the world's tallest structure?"  
+Then quote the exact sentence that supports your answer.
+
+Result:---
+Answer: 1930
+
+Evidence: “It was the world's tallest structure until the Chrysler Building was completed in 1930.”
