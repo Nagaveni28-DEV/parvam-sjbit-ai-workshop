@@ -1,0 +1,65 @@
+Prompt Engineering is a way of asking or interacting with a Chatbot for getting the desired output.
+
+Types of Prompts:
+1) Zero Shot Prompt:
+Ex: Write a Python program to classify the even and odd numbers out of the given list of numbers.
+
+Usecase: A customer support chatbot to analyse the user emotions.
+
+2) Few-Shot Prompt:
+Ex: Write a Python program to classify the even and odd numbers out of the given list of numbers.
+For Example: [1, 2, 3, 7, 8, 11, 12, 15, 18]
+even = [2, 8, 12, 18]
+odd = [1, 3, 7, 11, 15]
+
+Usecase: Generating the product description by giving 3 to 4 sample descriptions.
+
+3) Chain of Thoughts Prompt (CoT):
+Ex: Write a python program to find the sum of given numbers using while loop with step by step explanation.
+
+Usecase: To learn or explore new things with step by step explanation.
+
+4) Self Consistency Prompt (Extension of CoT):
+Ex: Solve the problem with step by step reasoning, then verify: new problem
+
+Usecase: Whenever the Accuracy needs to be high. Ex: Medical or Financial advisory chatbot
+
+5) Role/Persona Prompt:
+Ex: You are a Python Expert, I need a python program to print the star pattern using loop.
+
+Usecase: For proper expertise, we can use this prompt.
+
+6) System / Instruction Prompt:
+Ex: Always answer in one or 2 sentence for any question that I ask. What is the capital of India?
+
+Usecase: To maintain the Consistency in the Answer for sharp answers (To maintain the company brand and tone - Within Boundary)
+
+7) Negative Prompt:
+Ex: Explain about Python without using the keywords: programming, scripting, AI, ML and Similar to English.
+
+Usecase: For Sensitive Topics
+
+NLP - Natural Language Processing
+NLP is the way of understanding the Human language to process the output.
+
+Core Levels of NLP:
+1) Tokenization:
+Ex: I like to learn AI Prompting
+6 tokens (Each word is a token)
+
+2) Part of Speech Tagging:
+understanding the tense of the sentence
+(Classifying the noun, pronoun, verb, adjective)
+
+3) NER (Named Entity Recognition):
+Used to find the names, places, dates and mode
+
+4) Sentiment Analysis:
+For finding the tone: Positive, Negative & Mixed or Neutral
+
+5) Language Modelling:
+Translating the languages
+
+6) Semantic Parsing:
+understanding the meaning and relationship
+

@@ -1,0 +1,41 @@
+Stack:
+Frontend - HTML, CSS, JS & BS
+
+Backend - Python
+
+DB - Local DB (SQLite)
+
+http://127.0.0.1:5000
+
+http: Hyper Text Transfer Protocol
+For communication
+Between Client & Server
+
+127.0.0.1 - localhost (Local Machine)
+
+5000 - Default port of Flask
+
+templates folder is used for Frontend Design
+
+app.py contains the backend logic
+
+Project Explanation:
+Import the Flask
+
+render_template for running the HTML files
+
+request - communication purpose
+
+redirect - Example: after successful login, user will be sent to welcome page
+
+url_for - Navigation purpose (using routes)
+
+flash - Used for notification messages
+
+import db - SQLite
+
+import os - For getting the Windows permission to store the files
+
+import re - Regular Expressions
+
+from werkzeug.security import generate_password_hash, check_password_hash - For Security purpose to store the password in hash format and to cross verify the password
