@@ -1,0 +1,27 @@
+Git - Tool to push the code in GitHub
+
+GitHub - Platform 
+Version Control
+Storing Files
+Collaboration
+Code Integration
+
+Repository - Folder
+
+2 types of Repository:
+1) Local Repository: Folder in our System
+2) GitHub Repository: Folder in GitHub Server
+
+Steps to Push the code:
+1) Create a new repository in GitHub
+2) Clone the repository
+3) We will get a copy of remote repository in local system
+4) Copy the neccesary code in new repository
+ of local system
+5) git status
+It will show the files in 2 colors:
+red - Unknown or Untracked or Unstaged Files
+green - Known or Tracked or Staged Files
+6) git add filename for single files
+git add . for all files in the folder
+7) git commit -m "Message"
